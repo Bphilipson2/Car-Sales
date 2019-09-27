@@ -2,7 +2,7 @@ html, body, #root {
   height: 100%;
 }
 body {
-  background: #333;
+  background: rgb(112, 111, 111);
   margin: 0;
   display: grid;
   padding: 3em;
@@ -11,7 +11,7 @@ body {
 .boxes {
   display: grid;
   grid-gap: 2em;
-  grid-template-columns: repeat(2, minmax(350px, 1fr));
+  grid-template-columns: repeat(2, minmax(450px, 1fr));
   grid-template-rows: auto;
 }
 .box {
@@ -35,15 +35,15 @@ body {
   }
 }
 .button {
-  background: hotpink;
+  background: rgb(151, 151, 151);
   border: 1px solid transparent;
   color: white;
   margin-right: 1em;
   padding: .25em .75em;
   transition: all .25s ease-in;
   &:hover {
-    background: white;
-    border: 1px solid hotpink;
+    background: rgb(220, 255, 231);
+    border: 1px solid rgb(30, 165, 228);
     color: #333;
   }
 }
